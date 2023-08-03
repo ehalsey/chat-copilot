@@ -57,7 +57,7 @@ You can start the WebApi service using the command-line, Visual Studio Code, or 
    the service is running.
    ```
    info: Microsoft.SemanticKernel.Kernel[0]
-         Health probe: https://localhost:40443/healthz
+         Health probe: https://localhost:40444/healthz
    ```
 
 ## Visual Studio Code

@@ -152,7 +152,7 @@ WEBAPP_PROJECT_PATH="${SCRIPT_DIRECTORY}/../webapp"
 WEBAPP_ENV_FILEPATH="${WEBAPP_PROJECT_PATH}/.env"
 
 echo "Setting up '.env' for webapp..."
-echo "REACT_APP_BACKEND_URI=https://localhost:40443/" > $WEBAPP_ENV_FILEPATH
+echo "REACT_APP_BACKEND_URI=https://localhost:40444/" > $WEBAPP_ENV_FILEPATH
 echo "REACT_APP_AAD_AUTHORITY=https://login.microsoftonline.com/$ENV_TENANT_ID" >> $WEBAPP_ENV_FILEPATH
 echo "REACT_APP_AAD_CLIENT_ID=$CLIENT_ID" >> $WEBAPP_ENV_FILEPATH
 

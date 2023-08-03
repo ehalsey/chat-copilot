@@ -20,7 +20,7 @@ Importing documents enables Copilot Chat to have up-to-date knowledge of specifi
 2. Make sure the service is running. To start the service, see [here](../webapi/README.md).
 
 ## Running the app
-1. Ensure the web api is running at `https://localhost:40443/`.
+1. Ensure the web api is running at `https://localhost:40444/`.
 2. Configure the appsettings.json file under this folder root with the following variables and fill
    in with your information, where
    `ClientId` is the GUID copied from the **Application (client) ID** from your app registration in the Azure Portal,

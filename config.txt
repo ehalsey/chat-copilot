@@ -1,0 +1,1 @@
+.\Configure.ps1 -AIService AzureOpenAI -APIKey c1109dd0ecbxxxxxxx -Endpoint https://xxxxxx-openai-dev-01.openai.azure.com/ -ClientId xxxxxx-e1eb-40e8-a333-e413bed769d6 

@@ -210,7 +210,7 @@ You will need the following items to run the sample:
     
     _Solution_:
     
-    1. Confirm the backend service is running. Open a web browser and navigate to `https://localhost:40443/healthz`
+    1. Confirm the backend service is running. Open a web browser and navigate to `https://localhost:40444/healthz`
        - You should see a confirmation message: `Healthy`
        - If your browser asks you to acknowledge the risks of visiting an insecure website, you must acknowledge this before the frontend can connect to the backend server. 
     2. Navigate to `http://localhost:3000` or refresh the page to use the Chat Copilot application.

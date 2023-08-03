@@ -1,12 +1,12 @@
 import { expect } from '@playwright/test';
-import * as util from './utils'
+import * as util from './utils';
 
 /*
 Summary: Checks if the server is running and healthy
 */
 export async function serverHealth( page ) {
     // Make sure the server is running.
-    await page.goto('https://localhost:40443/healthz');
+    await page.goto('https://localhost:40444/healthz');
     await expect(page.getByText('Healthy')).toBeDefined();
 }
 

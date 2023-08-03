@@ -151,7 +151,7 @@ $webappProjectPath = Join-Path "$PSScriptRoot" '../webapp'
 $webappEnvFilePath = Join-Path "$webappProjectPath" '/.env'
 
 Write-Host "Setting up '.env'..."
-Set-Content -Path $webappEnvFilePath -Value "REACT_APP_BACKEND_URI=https://localhost:40443/"
+Set-Content -Path $webappEnvFilePath -Value "REACT_APP_BACKEND_URI=https://localhost:40444/"
 Add-Content -Path $webappEnvFilePath -Value "REACT_APP_AAD_AUTHORITY=https://login.microsoftonline.com/$TenantId"
 Add-Content -Path $webappEnvFilePath -Value "REACT_APP_AAD_CLIENT_ID=$ClientId"
 
