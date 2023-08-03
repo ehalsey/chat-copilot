@@ -51,7 +51,7 @@ jobs:
           for attempt in {0..20}; do
             jobs
             echo 'Waiting for service to start...';
-            if curl -k https://localhost:40443/healthz; then
+            if curl -k https://localhost:40444/healthz; then
               echo;
               echo 'Service started';
               break;
@@ -62,7 +62,7 @@ jobs:
 
       - name: Run Playwright tests
         env:
-          REACT_APP_BACKEND_URI: https://localhost:40443/
+          REACT_APP_BACKEND_URI: https://localhost:40444/
           REACT_APP_AAD_CLIENT_ID: ${{ secrets.COPILOT_CHAT_REACT_APP_AAD_CLIENT_ID }}
           REACT_APP_AAD_AUTHORITY: https://login.microsoftonline.com/common
 
